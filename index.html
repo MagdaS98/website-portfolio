@@ -1,0 +1,196 @@
+<!DOCTYPE html> 
+    
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fa264cf337.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <header>
+            <img class="logo" src="img/logo.png" alt="logo">
+            <div class="menu" id="menu-toggle"><i class="fas fa-bars"></i></div>
+            <nav id="menu-nav">
+            <a href="#">Home</a>
+            <a href="band.html">Band</a>
+            <a href="events.html">Events</a>
+            <a href="#" class="js--scroll-to-help">Help</a>
+            <a href="about-us.html">About Us</a>
+            </nav>
+        </header>
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">Top</button>
+        <section class="banner-area">
+            <div class="image-homepage"></div>
+                <h3>WELCOME TO <span style="color:#3cb550"> MENTAL</span> PARK</h3>
+                <div class="text-banner">
+                <p>We are a group of dedicated fans of Linkin Park and our mission is to spread mental health awareness and help people who feel trapped. </p>
+                <p>We also organise many events with good music and discussions!
+                We believe the world can be a better place. </p>
+                </div>
+            <div class="buttons">
+            <a href="about-us.html" class="banner-btn1" target="_blank">Read more</a>
+            <a href="#" class="banner-btn2 js--scroll-to-memberships">Join us now</a>
+            </div>
+        </section>
+            
+        <div class="title">
+            <h2>#makechesterproud</h2>
+        </div>
+            
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/jky8GTCIuYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+           
+        <a id="help-section"></a>
+            <section class="contact-form js--help-section">
+                <p class="first-p">In case you or someone you know needs support, here are some resources:</p>
+                <p>Suicide Prevention Lifeline<span style="color:#3cb550"> 1-800-273-TALK</span></p>
+                <p>Crisis Text Line, the free, nationwide, 24/7 text message service for people in crisis, is here to support.</p>
+                <p>For support in the United States, text <span style="color:#3cb550">HELLO to 741741</span> or message at <span style="color:#3cb550">facebook.com/CrisisTextLine.</span></p>
+                <p>For support outside the US, find resources at <span style="color:#3cb550">http://www.suicide.org/international-suicide-hotlines.html</span></p> 
+                <hr>
+                <p>If you feel like you or someone close to you need to talk and let something out, our group is here for you.</p>
+                <p>Send us a message.</p>
+            <section class="contact-us">
+            <form method="post" action="#" class="contact-form1">
+                <div class="form-box">
+                    <label>Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-box">
+                    <label>E-mail</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-box">
+                    <label>Your message</label>
+                    <textarea name="message"></textarea>
+                    </div>
+                <div class="form-box">
+                    <button id="btnSend">Send</button>
+                </div>
+            </form>
+            </section>
+            </section>
+            <section class="events">
+                <p class="check-out">CHECK OUT OUR EVENTS</p>
+                <div class="events-section">
+                <div class="container">
+                <a href="events.html#linkin-park-night" target="_blank">
+                <img src="img/band/event1.jpg" height="300" width="300">
+                <div class="overlay">
+                    <div class="text">Linkin Park Night</div>
+                </div>
+                </a>
+                </div>
+                <div class="container">
+                <a href="events.html#mental-health" target="_blank">
+                <img src="img/band/event2.jpg" height="300" width="300">
+                    <div class="overlay">
+                    <div class="text">Mental Health Meeting</div>
+                    </div>
+                    </a>
+                    </div>
+                <div class="container">
+                    <a href="events.html#memorial" target="_blank">
+                <img src="img/band/event3.jpg" height="300" width="300">
+                 <div class="overlay">
+                    <div class="text">Memorial for Chester</div>
+                </div>
+                    </a>
+                </div>
+            </section>
+            <a id="membership-section"></a>
+            <section class="membership js--section-memberships">
+                <div class="be-us">
+                    <p class="want-us">Want to be one of us?</p>
+                    <p class="join">Join our membership!</p>
+                    <p class="join"><span style="color:#3cb550">Every penny goes to Mental Health Foundation :)</span></p>
+                </div>
+                <div class="cards">
+                <div class="card">
+                    <div>
+                        <h3>BASIC</h3>
+                        <h3><span style="color:#3cb550">FREE</span></h3>
+                        <hr>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Events for free</li>
+                            <li><i class="fas fa-check"></i>Mental health news</li>
+                            <li><i class="fas fa-check"></i>Facebook group</li>
+                        </ul>
+                        
+                    </div>
+                    <a href="form.html" class="sign-up-button" target="_blank">SIGN UP NOW</a>
+                </div>
+                
+                <div class="card">
+                    <div>
+                        <h3>PRO</h3>
+                        <h3><span style="color:#3cb550">5.99$ / MONTH</span></h3>
+                        <hr>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Covers basics</li>
+                            <li><i class="fas fa-check"></i>Article every month</li>
+                            <li><i class="fas fa-check"></i>T-shirt every 2 months</li>
+                        </ul>
+                    </div>
+                    <a href="form.html" class="sign-up-button" target="_blank">SIGN UP NOW</a>
+                </div>
+            <div class="card">
+                    <div>
+                        <h3>VIP</h3>
+                        <h3><span style="color:#3cb550">7.99$ / MONTH</span></h3>
+                        <hr>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Covers basics</li>
+                            <li><i class="fas fa-check"></i>Covers pro</li>
+                            <li><i class="fas fa-check"></i>Meet and Greet with 
+                                LP</li>
+                        </ul>   
+                    </div>
+                <a href="form.html" class="sign-up-button" target="_blank">SIGN UP NOW</a>
+                </div>
+                </div>
+            </section>
+            <section>
+            <p class="check-out1">Some sick fan-art</p>
+            <hr class="line">
+            <ul id="gallery">
+                <li><img src="img/images-fanart/jeden.jpg"></li>
+                <li><img src="img/images-fanart/dwa.jpg"></li>
+                <li><img src="img/images-fanart/trzy.jpg"></li>
+                <li><img src="img/images-fanart/cztery.jpg"></li>
+                <li><img src="img/images-fanart/piec.jpg"></li>
+                <li><img src="img/images-fanart/szesc.jpg"></li>
+                <li><img src="img/images-fanart/siedem.jpg"></li>
+                <li><img src="img/images-fanart/osiem.jpg"></li>
+                <li><img src="img/images-fanart/dziewiec.jpg"></li>
+                <li><img src="img/images-fanart/dziesiec.jpg"></li>
+            </ul>
+            </section>
+            <footer>
+            <div class="footer1">
+                <form class="newsletter" method="post" action="#">
+                    <p>Don't miss out our events<p>
+                        <div class="email-box">
+                            <input type="email" name="email" placeholder="Your e-mail" required>
+                            <button class="sub-btn" type="button" name="button">Subscribe</button>
+                        </div>
+                </form>
+                <div class="social-media">
+                    <p>Follow us on social media</p>
+                        <div class="icons">
+                            <a href="https://en-gb.facebook.com/linkinpark" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/linkinpark/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-snapchat" target="_blank"></i></a>
+                            <a href="https://twitter.com/linkinpark?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                </div>
+                        </div>
+                    <a href="index.html"><p class="copyright">&#169; Mental Park</p></a>
+            </footer>
+            <script src="menu-js/menu.js"></script>
+    </body>
+</html>
